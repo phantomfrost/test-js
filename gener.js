@@ -12,7 +12,7 @@ window.onload = function() {
 	<body>
 		<div>
 			<span>Div_Name:</span>
-			<span style="font-size: 100px;">${Div_Name}</span>
+			<span style="font-size: 100px;">${process.env.Div_Name}</span>
 	</body>
 </html>
 	`
