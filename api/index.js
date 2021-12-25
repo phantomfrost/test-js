@@ -1,4 +1,4 @@
-export default function handler(request, response) {
+export default function handler(response) {
 	const Test = "测试";
 	// let xue_html=`
 	// 	<!doctype html>
