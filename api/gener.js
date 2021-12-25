@@ -1,6 +1,5 @@
-window.onload = function() {
-	const Test = "测试"
-	let xue_html=`
+const Test = "测试"
+let xue_html=`
 <!doctype html>
 <html lang="zh">
 	<head>
@@ -16,5 +15,4 @@ window.onload = function() {
 	</body>
 </html>
 	`
-	return new Response(hpp_installhtml,{headers: { "content-type": "text/html;charset=UTF-8" }});
-}
+return new Response(hpp_installhtml,{headers: { "content-type": "text/html;charset=UTF-8" }});
