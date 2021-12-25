@@ -15,5 +15,7 @@ export default function handler(request, response) {
 					<span style="font-size: 100px;">${Div_Name}</span>
 			</body>
 		</html>`;
-	res.status(200).send(hpp_installhtml);
+	res.status(200).send(xue_html);
 }
+
+
