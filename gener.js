@@ -1,5 +1,4 @@
-!function()
-{
+window.onload = function() {
 	const Test = "测试"
 	let xue_html=`
 <!doctype html>
