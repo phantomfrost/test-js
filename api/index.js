@@ -1,4 +1,4 @@
 export default function handler(request,response) {
   const name = "test";
-  response.status(200).send(`Hello ${name}, ${process.env.Div_Name}!`);
+  response.status(200).send(`Hello ${name}, ${process.env.Div_Name} , ${process.env.path}!`);
 }
